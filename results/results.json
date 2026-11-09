@@ -1,0 +1,38 @@
+[
+  {
+    "dataset": "SIFT (same as paper)",
+    "algorithm": "NN-Descent (baseline)",
+    "time_seconds": 257.988,
+    "rounds": 15,
+    "peak_extra_memory_KB": 6515.75,
+    "recall_at_10": 0.9528,
+    "time_seconds_untracked": 52.024
+  },
+  {
+    "dataset": "SIFT (same as paper)",
+    "algorithm": "Dynamic NN-Descent",
+    "time_seconds": 266.669,
+    "rounds": 15,
+    "peak_extra_memory_KB": 3521.1,
+    "recall_at_10": 0.9874,
+    "time_seconds_untracked": 55.233
+  },
+  {
+    "dataset": "Synthetic (different)",
+    "algorithm": "NN-Descent (baseline)",
+    "time_seconds": 236.891,
+    "rounds": 12,
+    "peak_extra_memory_KB": 6520.07,
+    "recall_at_10": 0.9667,
+    "time_seconds_untracked": 44.405
+  },
+  {
+    "dataset": "Synthetic (different)",
+    "algorithm": "Dynamic NN-Descent",
+    "time_seconds": 240.639,
+    "rounds": 15,
+    "peak_extra_memory_KB": 3444.49,
+    "recall_at_10": 0.978,
+    "time_seconds_untracked": 48.268
+  }
+]
